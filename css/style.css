@@ -1,0 +1,41 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 20px;
+
+}
+
+/* Style for the messages */
+.messages{
+    margin-bottom: 40px;
+}
+
+/* Style for the message typing */
+.type-message{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#textInput{
+    width: 400px;
+    height: 40px;
+}
+
+#sendMessageBtn{
+    height: 40px;
+}
+
+#sendMessageBtn:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+

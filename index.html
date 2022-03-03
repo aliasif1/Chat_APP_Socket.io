@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="messages">
+        </div>
+        
+        <div class="type-message">
+            <form id="messageForm">
+                <input id="textInput">
+                <button id="sendMessageBtn" type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script defer src="./script.js"></script>
+</body>
+</html>
